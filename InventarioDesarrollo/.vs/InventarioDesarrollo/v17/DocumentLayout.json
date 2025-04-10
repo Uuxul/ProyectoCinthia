@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\canpa\\OneDrive\\Escritorio\\pp4\\InventarioDesarrollo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D936E22D-E9AD-4EAB-B8FD-A34B6FB6A7BB}|InventarioDesarrollo\\InventarioDesarrollo.csproj|c:\\users\\canpa\\onedrive\\escritorio\\pp4\\inventariodesarrollo\\inventariodesarrollo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D936E22D-E9AD-4EAB-B8FD-A34B6FB6A7BB}|InventarioDesarrollo\\InventarioDesarrollo.csproj|solutionrelative:inventariodesarrollo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D936E22D-E9AD-4EAB-B8FD-A34B6FB6A7BB}|InventarioDesarrollo\\InventarioDesarrollo.csproj|c:\\users\\canpa\\onedrive\\escritorio\\pp4\\inventariodesarrollo\\inventariodesarrollo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D936E22D-E9AD-4EAB-B8FD-A34B6FB6A7BB}|InventarioDesarrollo\\InventarioDesarrollo.csproj|solutionrelative:inventariodesarrollo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\canpa\\OneDrive\\Escritorio\\pp4\\InventarioDesarrollo\\InventarioDesarrollo\\Login.cs",
+              "RelativeDocumentMoniker": "InventarioDesarrollo\\Login.cs",
+              "ToolTip": "C:\\Users\\canpa\\OneDrive\\Escritorio\\pp4\\InventarioDesarrollo\\InventarioDesarrollo\\Login.cs",
+              "RelativeToolTip": "InventarioDesarrollo\\Login.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA9wDwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T02:03:32.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\canpa\\OneDrive\\Escritorio\\pp4\\InventarioDesarrollo\\InventarioDesarrollo\\Login.cs",
+              "RelativeDocumentMoniker": "InventarioDesarrollo\\Login.cs",
+              "ToolTip": "C:\\Users\\canpa\\OneDrive\\Escritorio\\pp4\\InventarioDesarrollo\\InventarioDesarrollo\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InventarioDesarrollo\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T01:38:10.733Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
