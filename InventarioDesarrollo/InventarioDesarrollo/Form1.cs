@@ -10,7 +10,12 @@ namespace InventarioDesarrollo
     {
         public Form1()
         {
+            Timer timer = new Timer();
             InitializeComponent();
+
+            timer.Interval = 1000; // Actualiza cada 1 segundo
+            timer.Tick += Timer_Tick;
+            timer.Start();
         }
 
         static string conex = "SERVER=localhost; PORT=3306;DATABASE=desarrollobd;UID=root;PASSWORD=170403";
@@ -242,10 +247,12 @@ namespace InventarioDesarrollo
         {
 
         }
-
-        private void button4_Click_1(object sender, EventArgs e)
+        // agregado
+        private void Timer_Tick(object sender, EventArgs e)
         {
-            Application.Exit();
+           FechaHora.Text = DateTime.Now.ToString("dddd, dd MMMM HH:mm:ss tt"); 
+
         }
+
     }
 }

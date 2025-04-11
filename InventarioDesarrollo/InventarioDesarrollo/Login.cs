@@ -17,6 +17,8 @@ namespace InventarioDesarrollo
         {
             InitializeComponent();
             Clave.PasswordChar = '*';
+            this.KeyPreview = true;
+            this.KeyDown += new KeyEventHandler(Login_KeyDown);
 
         }
         static string conex = "SERVER=localhost; PORT=3306;DATABASE=desarrollobd;UID=root;PASSWORD=170403";
@@ -79,6 +81,15 @@ namespace InventarioDesarrollo
         private void Login_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Login_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                button1.PerformClick(); 
+            }
         }
     }
 }

@@ -64,12 +64,18 @@ namespace InventarioDesarrollo
                 chart1.ChartAreas[0].AxisX.Interval = 1; // Asegura que se muestren todas las etiquetas
                 chart1.ChartAreas[0].AxisX.LabelStyle.Angle = -90; // Reduce el ángulo para mejorar visibilidad
                 chart1.ChartAreas[0].AxisX.LabelStyle.Font = new Font("Arial", 10, FontStyle.Bold); // Fuente más pequeña
+
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error al cargar la gráfica: " + ex.Message);
             }
 
+
+        }
+
+        private void chart1_Click(object sender, EventArgs e)
+        {
 
         }
     }
